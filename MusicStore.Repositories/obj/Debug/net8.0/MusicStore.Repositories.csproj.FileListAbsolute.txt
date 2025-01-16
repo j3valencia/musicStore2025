@@ -1,0 +1,17 @@
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.Repositories.deps.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.Repositories.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.Repositories.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.DataAccess.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.DataAccess.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/bin/Debug/net8.0/MusicStore.Entities.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.csproj.AssemblyReference.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.AssemblyInfoInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.AssemblyInfo.cs
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.csproj.CoreCompileInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.csproj.CopyComplete
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/refint/MusicStore.Repositories.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/ref/MusicStore.Repositories.dll

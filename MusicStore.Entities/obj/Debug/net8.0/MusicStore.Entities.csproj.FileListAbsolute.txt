@@ -1,0 +1,11 @@
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/bin/Debug/net8.0/MusicStore.Entities.deps.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/bin/Debug/net8.0/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/bin/Debug/net8.0/MusicStore.Entities.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.GeneratedMSBuildEditorConfig.editorconfig
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.AssemblyInfoInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.AssemblyInfo.cs
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.csproj.CoreCompileInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/refint/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/ref/MusicStore.Entities.dll

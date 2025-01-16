@@ -1,0 +1,17 @@
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.DataAccess.deps.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.DataAccess.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.DataAccess.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.AssemblyInfoInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.AssemblyInfo.cs
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.csproj.CoreCompileInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/refint/MusicStore.DataAccess.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/ref/MusicStore.DataAccess.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.Entities.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.csproj.AssemblyReference.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.csproj.CopyComplete
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.DataAccess.runtimeconfig.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.genruntimeconfig.cache

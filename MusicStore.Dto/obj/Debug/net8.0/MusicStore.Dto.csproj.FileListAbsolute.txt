@@ -1,0 +1,11 @@
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/bin/Debug/net8.0/MusicStore.Dto.deps.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/bin/Debug/net8.0/MusicStore.Dto.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/bin/Debug/net8.0/MusicStore.Dto.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.GeneratedMSBuildEditorConfig.editorconfig
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.AssemblyInfoInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.AssemblyInfo.cs
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.csproj.CoreCompileInputs.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/refint/MusicStore.Dto.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/ref/MusicStore.Dto.dll
