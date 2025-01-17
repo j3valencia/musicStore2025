@@ -134,7 +134,7 @@ public class ConcertService : IConcertService
         var response = new BaseResponse();
         try
         {
-            var entity = await _repositorio.FindByIdAsync(id); //este select utiliza el changetracker
+            var entity = await _repositorio.FindByIdAsync(id); //este select utiliza el changetracker ssadas
             if (entity is null)
             {
                 response.Success = false;
