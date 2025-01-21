@@ -9,3 +9,4 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/refint/MusicStore.Entities.dll
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.pdb
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/ref/MusicStore.Entities.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Entities/obj/Debug/net8.0/MusicStore.Entities.sourcelink.json

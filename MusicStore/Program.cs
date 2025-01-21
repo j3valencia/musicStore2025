@@ -5,6 +5,7 @@ using MusicStore.Repositories;
 using MusicStore.Entities;
 using MusicStore.Service.Implementations;
 using MusicStore.Service.Interfaces;
+using MusicStore.Service.Profiles;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,12 +14,23 @@ builder.Services.Configure<AppSettings>(builder.Configuration);
 // Add services to the container.
 builder.Services.AddDbContext<MusicStoreDbContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Database"));
+    
+    if(builder.Environment.IsDevelopment())
+        options.EnableSensitiveDataLogging();  //permite ver los parametros q le pasamos en las consultas en el terminal
+    
 });
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddAutoMapper(config =>
+{
+    config.AddProfile<GenreProfile>();
+    config.AddProfile<ConcertProfile>();
+
+});
 
 builder.Services.AddTransient<IGenreRepository, GenreRepository>();
 builder.Services.AddTransient<IGenreService, GenreService>();
@@ -27,6 +39,12 @@ builder.Services.AddTransient<IConcertRepositorio, ConcertRepositorio>();
 builder.Services.AddTransient<IConcertService, ConcertService>();
 
 builder.Services.AddTransient<IFileUploader, FileUploader>();
+
+builder.Services.AddTransient<ICustomerRepository, CustomerRepository>();
+
+
+builder.Services.AddTransient<ISaleRepository, SaleRepository>();
+builder.Services.AddTransient<ISaleService, SaleService>();
 
 var app = builder.Build();
 
@@ -91,3 +109,5 @@ app.MapDelete("api/Genres/{id:int}", async (IGenreService service, int id) =>
 // });
 
 app.Run();
+
+//TODO: USO DE TUPLAS

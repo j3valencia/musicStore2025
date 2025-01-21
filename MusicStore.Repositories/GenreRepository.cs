@@ -10,55 +10,17 @@ using MusicStore.Entities;
 namespace MusicStore.Repositories
 {
     
-    public class GenreRepository : IGenreRepository
+    public class GenreRepository : RepositoryBase<Genre>, IGenreRepository //hereda del repositoriobase de unitwork y de la interfaz
     {
-        private readonly MusicStoreDbContext _context;
-        
-
-        public GenreRepository(MusicStoreDbContext context)
+        public GenreRepository(MusicStoreDbContext context) : base(context) // le decimos q la variable de musicstoredbcontext va a pasar al contructor base
         {
-            _context = context;
         }
         public async Task<List<Genre>> ListAsync()
         {
-            return await _context.Set<Genre>()
+            return await Context.Set<Genre>()
                 .Where(p => p.Status)
+                .AsNoTracking()
                 .ToListAsync();
         }
-
-        public async Task<int> AddAsync(Genre entity){
-            await _context.Set<Genre>().AddAsync(entity);
-            await _context.SaveChangesAsync();
-            return entity.Id;
-
-        }
-
-        public async Task<Genre?> FindByIdAsync(int id)
-        {
-            return await _context.Set<Genre>()
-                .Where(g => g.Id == id)
-                .FirstOrDefaultAsync();
-        }
-
-        public async Task UpdateAsync(Genre entity)
-        {
-            _context.Set<Genre>().Update(entity);
-            await _context.SaveChangesAsync();
-        }
-
-        public async Task DeleteAsync(int id)
-        {
-            var entity = await _context.Set<Genre>()
-                .Where(g => g.Id == id)
-                .FirstOrDefaultAsync();
-            if (entity != null)
-            {
-                entity.Status = false;
-                await _context.SaveChangesAsync();
-            }
-        }
-        
-            
-
     }
 }

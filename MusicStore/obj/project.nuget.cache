@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MFuRGjjNDxrSFy3CoAjJxVxoF+u6FO4F1UY/vztnx59gX0LspCi/K9Au1tJf/a/600+L0bBu7+tGSLLBiQ1ifg==",
+  "dgSpecHash": "ZDIroTQ60ZCkw7KtSni3Khuw9LCaKRZi71j5MKo+ezeFofJ778mMrbw9jS+x62p32q2L1IpxHr4CGo9d5CWIVw==",
   "success": true,
   "projectFilePath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore/MusicStore.csproj",
   "expectedPackageFiles": [
+    "/home/javier/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/javier/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/javier/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
     "/home/javier/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",

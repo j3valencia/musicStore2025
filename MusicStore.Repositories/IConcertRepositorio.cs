@@ -3,12 +3,12 @@ using MusicStore.Entities.Infos;
 
 namespace MusicStore.Repositories;
 
-public interface IConcertRepositorio
+public interface IConcertRepositorio : IRepositoryBase<Concert>
 {
-    Task<ICollection<ConcertInfo>> ListAsync(string? filter, int page, int rows);
-    Task<Concert?> FindByIdAsync(int id);
-    Task<int> AddAsync(Concert entity);
-    Task UpdateAsync();
-    Task DeleteAsync(int id);
+    //Task<ICollection<ConcertInfo>> ListAsync(string? filter, int page, int rows);
     Task FinalizeAsync(int id);
+    
+    
+    
+    //TODO: Expresiones lamban con parametros
 }

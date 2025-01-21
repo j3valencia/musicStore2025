@@ -15,3 +15,4 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.csproj.CopyComplete
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/bin/Debug/net8.0/MusicStore.DataAccess.runtimeconfig.json
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.genruntimeconfig.cache
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/obj/Debug/net8.0/MusicStore.DataAccess.sourcelink.json

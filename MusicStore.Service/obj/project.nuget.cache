@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cPFD36IZYT7mgKJIf/8hgQuEp5JLltch4A4NnRIclIb4JM+hLibA5PIW/6yFDD4Fv9vZAyfSc7UwTmaVZxKyrQ==",
+  "dgSpecHash": "tnm1BTSjKL+LpkpWrKol4YjD/P7NVCJ1A9AoqtBZN3vzigKUcvjr08Xw0Qt5nOr1zyYnn/0XfY5g7taDTecBNw==",
   "success": true,
   "projectFilePath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/MusicStore.Service.csproj",
   "expectedPackageFiles": [
+    "/home/javier/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/home/javier/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/javier/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
     "/home/javier/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

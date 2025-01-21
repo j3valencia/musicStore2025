@@ -19,3 +19,4 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/obj/Debug/net8.0/refint/MusicStore.Service.dll
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/obj/Debug/net8.0/MusicStore.Service.pdb
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/obj/Debug/net8.0/ref/MusicStore.Service.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/obj/Debug/net8.0/MusicStore.Service.sourcelink.json

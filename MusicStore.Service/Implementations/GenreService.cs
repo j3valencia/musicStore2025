@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.Extensions.Logging;
 using MusicStore.Dto.Request;
 using MusicStore.Dto.Response;
@@ -11,10 +12,13 @@ public class GenreService : IGenreService
 {
     private readonly IGenreRepository _repository;
     private readonly ILogger<GenreService> _logger;
-    public GenreService(IGenreRepository repository, ILogger<GenreService> logger)
+    private readonly IMapper _mapper;
+
+    public GenreService(IGenreRepository repository, ILogger<GenreService> logger, IMapper mapper)
     {
         _repository = repository;
         _logger = logger;
+        _mapper = mapper;
     }
     public async Task<BaseResponseGeneric<IEnumerable<GenreDtoResponse>>> ListAsync()
     {
@@ -23,13 +27,17 @@ public class GenreService : IGenreService
         {
             var collecion = await _repository.ListAsync();
 
-            response.Data = collecion.Select(x => new GenreDtoResponse
-            {
-                Id = x.Id,
-                Name = x.Name,
-                Status = x.Status
-            });
+            // response.Data = collecion.Select(x => new GenreDtoResponse
+            // {
+            //     Id = x.Id,
+            //     Name = x.Name,
+            //     Status = x.Status
+            // });
+            // response.Success = true;
+            
+            response.Data = _mapper.Map<IEnumerable<GenreDtoResponse>>(collecion); //mapea de genre a genredtoresponse  
             response.Success = true;
+            
         }
         catch (Exception ex)
         {
@@ -55,14 +63,17 @@ public class GenreService : IGenreService
                 return response;
             }
 
-            response.Data = new GenreDtoResponse
-            {
-                Id = entity.Id,
-                Name = entity.Name,
-                Status = entity.Status
-            };
+            // response.Data = new GenreDtoResponse
+            // {
+            //     Id = entity.Id,
+            //     Name = entity.Name,
+            //     Status = entity.Status
+            // };
+            // response.Success = true;
+
+            response.Data = _mapper.Map<GenreDtoResponse>(entity);
             response.Success = true;
-            
+
         }
         catch (Exception ex)
         {
@@ -78,11 +89,13 @@ public class GenreService : IGenreService
         var response = new BaseResponseGeneric<int>();
         try
         {
-            var entity = new Genre
-            {
-                Name = request.Name,
-                Status = request.Status
-            };
+            // var entity = new Genre
+            // {
+            //     Name = request.Name,
+            //     Status = request.Status
+            // };
+
+            var entity = _mapper.Map<Genre>(request); //de genredtorequest a genre
 
             var id = await _repository.AddAsync(entity);
             response.Data = id;
@@ -111,9 +124,13 @@ public class GenreService : IGenreService
                 response.ErrorMessage = "No se encontro el genero";
                 return response;
             }
-            entity.Name = request.Name;
-            entity.Status = request.Status;
-            await _repository.UpdateAsync(entity);
+            // entity.Name = request.Name;
+            // entity.Status = request.Status;
+            
+            //cuando hay una propiedad que ya existe como este caso entity ya lo buscamos por medio de findByIdAsync, hacemos la sobrecarga de mapper
+            
+            _mapper.Map(request, entity);  //los request o los parametros a actualizar  lo metemos o remplazamos en el entity 
+            await _repository.UpdateAsync();
             response.Success = true;
         }
         catch (Exception ex)

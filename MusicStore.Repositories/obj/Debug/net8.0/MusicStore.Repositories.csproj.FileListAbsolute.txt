@@ -15,3 +15,4 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/refint/MusicStore.Repositories.dll
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.pdb
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/ref/MusicStore.Repositories.dll
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/obj/Debug/net8.0/MusicStore.Repositories.sourcelink.json

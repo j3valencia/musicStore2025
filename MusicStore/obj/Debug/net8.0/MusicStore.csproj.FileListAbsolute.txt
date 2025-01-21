@@ -176,3 +176,5 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore/bin/Debug/net8.0/MusicStore.Service.dll
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore/bin/Debug/net8.0/MusicStore.Service.pdb
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore/bin/Debug/net8.0/MusicStore.Dto.pdb
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore/obj/Debug/net8.0/MusicStore.sourcelink.json
+/home/javier/Documentos/cursos/net/MusicProject/MusicStore/bin/Debug/net8.0/AutoMapper.dll
