@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicStore.Repositories
-build_property.ProjectDir = /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/
+build_property.ProjectDir = C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Repositories\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

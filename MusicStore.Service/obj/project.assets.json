@@ -2912,19 +2912,19 @@
     ]
   },
   "packageFolders": {
-    "/home/javier/.nuget/packages/": {}
+    "C:\\Users\\j3val\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/MusicStore.Service.csproj",
+      "projectUniqueName": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Service\\MusicStore.Service.csproj",
       "projectName": "MusicStore.Service",
-      "projectPath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/MusicStore.Service.csproj",
-      "packagesPath": "/home/javier/.nuget/packages/",
-      "outputPath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Service/obj/",
+      "projectPath": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Service\\MusicStore.Service.csproj",
+      "packagesPath": "C:\\Users\\j3val\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/javier/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\j3val\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2936,14 +2936,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/MusicStore.DataAccess.csproj": {
-              "projectPath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/MusicStore.DataAccess.csproj"
+            "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.DataAccess\\MusicStore.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.DataAccess\\MusicStore.DataAccess.csproj"
             },
-            "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/MusicStore.Dto.csproj": {
-              "projectPath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/MusicStore.Dto.csproj"
+            "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Dto\\MusicStore.Dto.csproj": {
+              "projectPath": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Dto\\MusicStore.Dto.csproj"
             },
-            "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/MusicStore.Repositories.csproj": {
-              "projectPath": "/home/javier/Documentos/cursos/net/MusicProject/MusicStore.Repositories/MusicStore.Repositories.csproj"
+            "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Repositories\\MusicStore.Repositories.csproj": {
+              "projectPath": "C:\\Users\\j3val\\RiderProjects\\musicStore2025\\MusicStore.Repositories\\MusicStore.Repositories.csproj"
             }
           }
         }
@@ -2952,6 +2952,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2979,7 +2984,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.112/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -2,7 +2,6 @@ namespace MusicStore.Entities;
 
 public class AppSettings
 {
-
     public Storageconfiguration StorageConfiguration { get; set; } = default!;
     public class Storageconfiguration
     {

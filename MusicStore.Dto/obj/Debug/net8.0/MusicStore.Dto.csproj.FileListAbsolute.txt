@@ -10,3 +10,15 @@
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.pdb
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/ref/MusicStore.Dto.dll
 /home/javier/Documentos/cursos/net/MusicProject/MusicStore.Dto/obj/Debug/net8.0/MusicStore.Dto.sourcelink.json
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\bin\Debug\net8.0\MusicStore.Dto.deps.json
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\bin\Debug\net8.0\MusicStore.Dto.dll
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\bin\Debug\net8.0\MusicStore.Dto.pdb
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.AssemblyInfoInputs.cache
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.AssemblyInfo.cs
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.csproj.CoreCompileInputs.cache
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.sourcelink.json
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.dll
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\refint\MusicStore.Dto.dll
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\MusicStore.Dto.pdb
+C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.Dto\obj\Debug\net8.0\ref\MusicStore.Dto.dll

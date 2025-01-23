@@ -16,6 +16,6 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MusicStore.DataAccess
-build_property.ProjectDir = /home/javier/Documentos/cursos/net/MusicProject/MusicStore.DataAccess/
+build_property.ProjectDir = C:\Users\j3val\RiderProjects\musicStore2025\MusicStore.DataAccess\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

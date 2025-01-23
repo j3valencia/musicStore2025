@@ -29,6 +29,7 @@ builder.Services.AddAutoMapper(config =>
 {
     config.AddProfile<GenreProfile>();
     config.AddProfile<ConcertProfile>();
+    config.AddProfile<SaleProfile>();
 
 });
 
